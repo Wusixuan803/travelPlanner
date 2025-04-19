@@ -1,0 +1,7 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  font-style: italic;
+  color: var(--text-secondary);
+}

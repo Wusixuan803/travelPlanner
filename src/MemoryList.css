@@ -1,0 +1,27 @@
+.memory-list {
+  background-color: var(--card-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+}
+
+.memory-list h3 {
+  margin-top: 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.memories {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.memory {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.memory:last-child {
+  border-bottom: none;
+}

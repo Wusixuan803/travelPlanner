@@ -1,0 +1,43 @@
+.place-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.place__details {
+  flex: 1;
+  cursor: pointer;
+}
+
+.place__name {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.place__description {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.place__date {
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.place__delete {
+  background-color: transparent;
+  color: var(--accent-color);
+  padding: 0.25rem 0.5rem;
+  margin-left: 1rem;
+}
+
+.place__delete:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.place__text--added {
+  animation: fadeIn 1s;
+}

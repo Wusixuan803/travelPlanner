@@ -1,0 +1,64 @@
+.auth-page {
+  max-width: 400px;
+  margin: 10% auto;
+  text-align: center;
+}
+
+.auth-page h1 {
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.auth-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.auth-switch {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.auth-switch button {
+  background: none;
+  border: none;
+  color: var(--primary-color);
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+}
+
+.auth-switch button:hover {
+  text-decoration: underline;
+  background-color: transparent;
+  color: var(--secondary-color);
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 1.5rem 0;
+  border: none; 
+}
+
+.divider .line {
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+  border: none;     
+  margin: 0;      
+}
+
+.divider span {
+  padding: 0 1rem;
+  color: #777;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+

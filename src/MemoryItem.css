@@ -1,0 +1,56 @@
+.memory-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.memory__details {
+  flex: 1;
+  cursor: pointer;
+}
+
+.memory__title {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.memory__description {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.memory__date {
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  margin: 0.5rem 0;
+}
+
+.memory__image-container {
+  margin-top: 1rem;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.memory__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.memory__delete {
+  background-color: transparent;
+  color: var(--accent-color);
+  padding: 0.25rem 0.5rem;
+  margin-left: 1rem;
+}
+
+.memory__delete:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.memory__text--added {
+  animation: fadeIn 1s;
+}
